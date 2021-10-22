@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio clase 4</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!--comienza botonera-->
+    <nav>
+		<a href="index.html">
+			<img src="imagenes/logo.png" alt="Thailand ice cream rolls">
+		</a>
+		 <ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="index.html#sabores">Sabores</a></li>
+		</ul>
+	</nav>
+
+    <!--cierra botonera-->
+
+    <!--comienza header-->
+
+    <header class="imgIndex">
+		<h1 class="thai">THAILAND ICE CREAM ROLLS</h1>
+	</header>
+
+    <!--cierra header-->
+
+    <!--comienza mas probados-->
+
+    <main>
+		<h2 class=" textoCentrado">Los mas probados</h2>
+		<section>
+			<article class="masProbado">
+				<h3>Addictive cream</h3>
+				<a href="index.html#addictive">
+				<img src="imagenes/addictive_cream.png" alt="Sabor a oreo con limón"></a>
+	    	</article>
+	    	<article class="masProbado">
+	    		<h3>Kiwi sensation</h3>
+	    		<a href="index.html#kiwi">
+	    		<img src="imagenes/kiwi_sensation.png" alt="Sabor a kiwi con pistacho"></a>
+	    	</article>
+	    	<article class="masProbado">
+	    		<h3>Fresh blueberry</h3>
+	    		<a href="index.html#fresh">
+	    		<img src="imagenes/fresh_blueberry.png" alt="Sabor a Arándano con frambuesa"></a>
+	    	</article>
+		</section>	
+	</main>
+
+    <!--cierra mas probados-->
+
+    <!--comienza un aside-->
+    <aside>
+        <h3 class="textoCentrado">Origen del producto</h3>
+        <p>Los orígenes del helado tailandés se sitúan a finales de la década de 1990, cuando los vendedores ambulantes de los mercados nocturnos de Phuket comenzaron a elaborarlo como un producto artesanal.</p>
+    </aside>
+
+    <!--cierra un aside-->
+
+    <!--comienza SABORES-->
+
+<div>
+    <div>
+        <h1 id=sabores class="textoCentrado">Sabores</h1>
+        <ul  class="textoCentrado">
+            <li>Natural $</li>
+            <li>_____</li>
+            <li>Sin lactosa $</li>
+            <li>_____</li>
+            <li>Vegana $</li>
+            <li>_____</li>
+        </ul>
+    </div>
+    <section class="contenedor justificar">
+        <article class=" cambioColor w30">
+            <h3 class="textoCentrado" id="addictive">Addictive cream</h3>
+            <img src="imagenes/addictive_cream.png" alt="Sabor a oreo y limón">
+            <ul>
+                <li>Base</li>
+                <li>Oreo</li>
+                <li>Limón</li>
+                <li>Salsa</li>
+                <li>Topping</li>
+            </ul>		
+        </article>
+        <article class="cambioColor w30">
+            <h3 class="textoCentrado" id="kiwi">Kiwi sensation</h3>
+            <img src="imagenes/kiwi_sensation.png" alt="Sabor a kiwi con pistacho">
+            <ul>
+                <li>Base</li>
+                <li>Kiwi</li>
+                <li>Pistacho</li>
+                <li>Salsa</li>
+                <li>Topping</li>
+            </ul>
+        </article>
+        <article class="cambioColor w30">
+            <h3 class="textoCentrado">Mint Chocolate</h3>
+            <img src="imagenes/mint_chocolate.png" alt="Sabor a menta con chocolate">
+            <ul>
+                <li>Base</li>
+                <li>Menta</li>
+                <li>Chocolate</li>
+                <li>Salsa</li>
+                <li>Topping</li>
+            </ul>
+        </article>
+        <article class="cambioColor w30">
+            <h3 class="textoCentrado">Crazy banana</h3>
+            <img src="imagenes/crazy_banana.png" alt="Sabor banana con chirimoya">
+            <ul>
+                <li>Base</li>
+                <li>Banana</li>
+                <li>Chirimoya</li>
+                <li>Salsa</li>
+                <li>Topping</li>
+            </ul>
+        </article>
+        <article class="cambioColor w30">
+            <h3 class="textoCentrado">Strawberry passion</h3>
+            <img src="imagenes/strawberry_passion.png" alt="Sabor a frutilla con coco">	
+            <ul>
+                <li>Base</li>
+                <li>Frutilla</li>
+                <li>Coco</li>
+                <li>Salsa</li>
+                <li>Topping</li>
+            </ul>
+        </article>
+        <article class="cambioColor w30">
+            <h3 class="textoCentrado"id="fresh">Fresh blueberry</h3>
+            <img src="imagenes/fresh_blueberry.png" alt="Sabor arándano con frambuesa">	
+            <ul>
+                <li>Base</li>
+                <li>Arándano</li>
+                <li>Frambuesa</li>
+                <li>Salsa</li>
+                <li>Topping</li>
+            </ul>
+        </article>
+    </section>
+</div>
+
+<!--CIERRA SABORES-->
+
+<!-- COMIENZA PEDIR HELADO-->
+<section>
+    <h3>Haga aqui su pedido</h3>
+    <form action="" method="post">
+        <fieldset>
+        <label for="">Seleccione su helado</label>
+        <select name="helado" id="">
+            <option value=""></option>
+            <option value="Addictive cream">Addictive cream</option>
+            <option value="Kiwi sensation">Kiwi sensation</option>
+            <option value="Mint Chocolate">Mint Chocolate</option>
+            <option value="Crazy banana">Crazy banana</option>
+            <option value="Strawberry passion">Strawberry passion</option>
+            <option value="Fresh blueberry">Fresh blueberry</option>
+        </select>
+             <br>      
+            <label for="Tipo de base">Tipo de base</label>
+            <input type="text" name="Tipo de base" id="Tipo de base">
+            <br>
+            <label for="Cantidad">Cantidad</label>
+            <input type="number" name="cantidad" id="cantidad" required>
+            <br>
+            <label for="sub total">Sub total</label>
+            <input type="text" name="sub total" id="sub total">
+            <br>
+            <input type="submit" value="Agregar">
+        </fieldset>   
+    </form>
+</section>
+
+
+<!-- CIERRA PEDIR HELADO-->
+<footer>
+    <img src="imagenes/logoPie.png" alt="Thailan ice cream rolls">
+    <div>
+        <a href="https://www.facebook.com" target="blank">
+            <img src="imagenes/facebook.png" alt="logo de facebook">
+        </a>
+        <a href="https://www.instagram.com" target="blank">
+            <img src="imagenes/instagram.png" alt="logo de instagram">
+        </a>
+    </div>
+</footer>
+ <script src="main.js"></script> 
+</body>
+</html>
